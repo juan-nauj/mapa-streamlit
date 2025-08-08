@@ -204,5 +204,3 @@ __marimo__/
 
 # custom
 *.csv
-*.pkl
-*.keras
