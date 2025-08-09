@@ -16,7 +16,8 @@ uv venv --python 3.9
 Activate the environment:
 
 ```sh
-.venv\Scripts\activate
+source .venv/bin/activate # mac/linux
+.venv\Scripts\activate # windows
 ```
 
 Install the requirements:
@@ -36,3 +37,9 @@ streamlit run app.py
 ```
 
 [uv]: https://docs.astral.sh/uv/getting-started/installation/#__tabbed_1_2
+
+## 🗒️ Export Requirements
+
+```sh
+uv pip freeze > requirements.txt
+```
